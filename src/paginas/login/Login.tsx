@@ -62,16 +62,16 @@ function Login(){
                    <Box display='flex' justifyContent = 'center' marginTop = {2}>
                        <Box marginRight = {1}>
                            <Typography variant = 'subtitle1' gutterBottom align = 'center' >Não tem uma conta?</Typography>
-                       </Box>
-                       <Link to = '/cadastrousuario' className = 'text-decorator-none'>
-                       <Typography variant = 'subtitle1' gutterBottom align = 'center' className = 'textos1'>Cadastre-se</Typography>
-                       </Link>
-                   </Box>
-               </Box>
-           </Grid>
+                    </Box>
+                    <Link to = '/cadastrousuario' className = 'text-decorator-none'>
+                    <Typography variant = 'subtitle1' gutterBottom align = 'center' className = 'textos1'>Cadastre-se</Typography>
+                    </Link>
+                    </Box>
+                </Box>
+                </Grid>
            <Grid xs = {6} className = 'imagem'>
 
-           </Grid>
+            </Grid>
        </Grid>
    )
 }
