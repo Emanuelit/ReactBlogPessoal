@@ -10,7 +10,7 @@ import { addToken } from "../../store/tokens/actions";
 
 
 function Login(){
-    let history = useNavigate();
+    let navigate = useNavigate();
     const dispatch = useDispatch();
     const [token, setToken] = useState('');
     const [userLogin, setUserLogin] = useState<UserLogin>(
@@ -33,7 +33,7 @@ function Login(){
     useEffect(() =>{
         if(token !== ""){
             dispatch(addToken(token));
-            history('/home')
+            navigate('/home')
         }
     },[token])
 

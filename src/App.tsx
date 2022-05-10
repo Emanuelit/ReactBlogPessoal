@@ -53,10 +53,11 @@ function App() {
         
 
 
-      </Routes>
-        </div>
-      <Footer />
+        </Routes>
+  </div>
+        <Footer />
     </Router>
+    
     </Provider>
 
   );
