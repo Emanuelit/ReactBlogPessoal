@@ -1,5 +1,8 @@
 .textos1 {
     font-weight: bold !important;
+    color: #a580f0 !important;
+    font-family: monospace !important;
+    text-shadow: #c3c59e 0.1em 0.1em 0.2em !important;
 }
 
 .imagem {
@@ -11,6 +14,8 @@
     background-position: center;
 }
 
+
 .text-decorator-none {
     text-decoration: none;
 }
+

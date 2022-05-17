@@ -1,3 +1,10 @@
 .topo{
-    margin-top: 20px;
+    margin-top: 120px;
+    text-align: center;
+    padding: auto;
+}
+
+.formulariocadastrotema{
+    color: white;
+    text-shadow: 4px 2px 1px black;
 }

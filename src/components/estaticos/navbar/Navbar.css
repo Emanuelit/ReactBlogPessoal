@@ -1,8 +1,17 @@
-.cursor{
+.cursor {
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 .text-decorator-none{
     text-decoration: none;
+}
+
+.MuiPaper-root{
+   background: #6a7dfe;
+   background: -webkit-linear-gradient(to left, #b4afe0, #1d1c1d);
+   background: -o-linear-gradient(to left, #b4afe0, #1d1c1d);
+   background: -moz-linear-gradient(to left, #b4afe0, #1d1c1d);
+   background: linear-gradient(to left, #b4afe0, #1d1c1d);
+    
 }
